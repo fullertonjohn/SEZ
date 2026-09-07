@@ -4,7 +4,7 @@ A machine learning pipeline that predicts Special Economic Zone (SEZ) boundary p
 
 ## Background
 
-This project is a spinoff of RA work at DevLab (Prof. Dean Yang) mapping SEZ boundary polygons by hand in QGIS/Google My Maps. Each of 265 mapped SEZs is a hand-drawn polygon tagged with a confidence level (`High`, `Medium`, `Low`) reflecting how certain the mapping is. Manually mapping the remaining un-mapped SEZs is slow, so this project trains a model to estimate a polygon automatically from satellite features (imagery, roads, building footprints), using the already-mapped polygons as ground truth.
+This project is a spinoff of RA work at DevLab (Prof. Dean Yang) mapping SEZ boundary polygons by hand in QGIS/Google My Maps. Each of 265 mapped SEZs is a hand-drawn polygon tagged with a confidence level (`High`, `Medium`, `Low`) reflecting how certain the mapping is. Manually mapping the remaining un-mapped SEZs is slow, so this project trains a model to estimate a polygon automatically from satellite features (imagery, roads, building footprints), using the already-mapped polygons as ground truth. All code is handwritten, although most of the technical material was learned via LLM's.
 
 ## Approach
 
